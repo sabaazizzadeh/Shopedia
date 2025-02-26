@@ -31,9 +31,10 @@ function RegisterForm() {
                     <ButtonComponents title="SIGN IN" />
 
                     <div className="text-center mt-3">
-                        <a href="#" className="text-gray-400 font-light">
-                            Already have an account ?
-                        </a>
+                       
+                        <Link className="text-gray-400 font-light">
+                             Already have an account ?
+                        </Link>
                         <Link to='/Login' className="text-[#F47458] font-light"> Login</Link>
                     </div>
 

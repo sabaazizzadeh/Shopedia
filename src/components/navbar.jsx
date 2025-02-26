@@ -12,7 +12,7 @@ function Navbar() {
             <div className='flex'>
                 <ul className='flex mr-5 font-light'>
                     <li className='mr-5 focus:bg-[#F06908] hover:text-[#F06908]'>
-                        <Link to='/Product'>Products</Link>
+                        <Link to='/Products/:id'>Products</Link>
                        
                     </li>
                     <li className='focus:text-[#F06908] hover:text-[#F06908]'>
@@ -20,7 +20,7 @@ function Navbar() {
                         
                     </li>
                 </ul>
-                <img src={shoppingCart} alt="shoppingCart" />
+                <Link to = '/ProductItem'><img src={shoppingCart} alt="shoppingCart" /></Link>
             </div>
         </div>
     );
